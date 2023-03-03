@@ -1,0 +1,95 @@
+@font-face{
+    font-family: "Bebas-neue";
+    src: url(../assets/fonts/bebas_neue/BebasNeue-Regular.ttf);}
+    
+/* Reset CSS */
+*{
+    margin: 0;
+    padding : 0;
+    box-sizing : border-box;
+}
+
+.layout-grid{
+    width: 100%;
+    height: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+.header-flex{
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+
+}
+
+header {
+    background-color: #F9003D;
+    height: 60px;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    border: 2px solid black;
+}
+
+header nav a{
+    padding: 15px 25px;
+    border-radius: 5px;
+    font-family: "Bebas-neue";
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+/*efeito ao passar o mouse*/
+header nav a:hover{
+    background-color:white;
+    color: #F9003D
+}
+#bannerinfo{
+    font-family: 'Bebas-neue';
+    width: 550px;
+    
+    
+   
+}
+main .banner-flex{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+main .banner #bannerinfo h1{
+    margin-bottom: 20px;
+    font-family: "Bebas-neue";
+    font-size: 96px;
+    border-bottom: #ffaf00;
+}
+main .banner #bannerinfo p{
+    margin-bottom: 20px ;
+    padding-bottom: 30px;
+    font-family: "Bebas-neue";
+    font-size: 53px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #F9003D;
+}
+
+
+
+main .banner {
+    width: 100%;
+    height: 740px;
+    color: white;
+
+    background-image: url(../assets/images/imagem-fundo-banner\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+
